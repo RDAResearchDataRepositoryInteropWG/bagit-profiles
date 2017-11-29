@@ -1,0 +1,58 @@
+{
+    "BagIt-Profile-Info": {
+        "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/RDAResearchDataRepositoryInteropWG/bagit-profiles/master/generic/0.1/profile.json",
+        "Source-Organization": "kit.edu",
+        "Contact-Name": "Research Data Repository Interoperability WG",
+        "Contact-Email": "rda-rdrinterop-wg@rda-groups.org",
+        "External-Description": "Base BagIt profile recommended by the RDA Research Data Repository Interoperability WG.",
+        "Version": "0.1"
+    },
+    "Bag-Info": {
+        "Bagging-Date": {
+            "required": true
+        },
+        "Contact-Phone": {
+            "required": false
+        },
+        "Contact-Email": {
+            "required": true
+        },
+        "External-Identifier": {
+            "required": true
+        },
+        "External-Description": {
+            "required": true
+        },
+        "Bag-Size": {
+            "required": true
+        },
+        "Payload-Oxum": {
+            "required": true
+        },
+        "Source-Identifier": {
+            "required": false
+        }    	 
+    },
+    "Manifests-Required": [
+        "md5"
+    ],
+    "Allow-Fetch.txt": true,
+    "Serialization": true,
+
+    "Accept-Serialization": [
+        "application/zip",
+        "application/tar",
+        "application/tar+gzip"
+    ],
+
+    "Accept-BagIt-Version": [
+        "0.97"
+    ],
+
+    "Tag-Manifests-Required": [
+        "md5"
+    ],
+    "Tag-Files-Required": [
+        "metadata/datacite.xml"
+    ]
+}
