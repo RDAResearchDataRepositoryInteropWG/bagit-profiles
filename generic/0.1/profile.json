@@ -1,7 +1,7 @@
 {
     "BagIt-Profile-Info": {
         "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/RDAResearchDataRepositoryInteropWG/bagit-profiles/master/generic/0.1/profile.json",
-        "Source-Organization": "kit.edu",
+        "Source-Organization": "rd-alliance.org",
         "Contact-Name": "Research Data Repository Interoperability WG",
         "Contact-Email": "rda-rdrinterop-wg@rda-groups.org",
         "External-Description": "Base BagIt profile recommended by the RDA Research Data Repository Interoperability WG.",
