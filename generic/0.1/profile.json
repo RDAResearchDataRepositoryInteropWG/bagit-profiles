@@ -37,7 +37,7 @@
         "md5"
     ],
     "Allow-Fetch.txt": true,
-    "Serialization": true,
+    "Serialization": "optional",
 
     "Accept-Serialization": [
         "application/zip",
