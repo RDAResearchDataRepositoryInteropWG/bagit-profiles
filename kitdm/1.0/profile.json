@@ -1,0 +1,57 @@
+{
+    "BagIt-Profile-Info": {
+        "BagIt-Profile-Identifier": "https://raw.githubusercontent.com/RDAResearchDataRepositoryInteropWG/bagit-profiles/master/kitdm/1.0/profile.json",
+        "Source-Organization": "kit.edu",
+        "Contact-Name": "Karlsruhe Institute of Technology",
+        "Contact-Email": "thomas.jejkal@kit.edu",
+        "External-Description": "BagIt profile for exporting content from KIT Data Manager-based repositories compliant to the recommendations provided by the RDA Research Data Repository Interoperability WG.",
+        "Version": "1.0"
+    },
+    "Bag-Info": {
+        "Bagging-Date": {
+            "required": true
+        },
+        "Contact-Phone": {
+            "required": false
+        },
+        "Contact-Email": {
+            "required": true
+        },
+        "External-Identifier": {
+            "required": true
+        },
+        "External-Description": {
+            "required": true
+        },
+        "Bag-Size": {
+            "required": true
+        },
+        "Payload-Oxum": {
+            "required": true
+        },
+        "Source-Identifier": {
+            "required": false
+        }    	 
+    },
+    "Manifests-Required": [
+        "sha512"
+    ],
+    "Allow-Fetch.txt": true,
+    "Serialization": "optional",
+
+    "Accept-Serialization": [
+        "application/zip"
+    ],
+
+    "Accept-BagIt-Version": [
+        "0.97"
+    ],
+
+    "Tag-Manifests-Required": [
+        "sha512"
+    ],
+    "Tag-Files-Required": [
+        "metadata/bmd.xml",
+        "metadata/datacite.xml"
+    ]
+}
