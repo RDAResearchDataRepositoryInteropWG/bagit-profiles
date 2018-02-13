@@ -11,6 +11,12 @@
         "Bagging-Date": {
             "required": true
         },
+        "Source-Organization": {
+            "required": false
+        },
+        "Contact-Name": {
+            "required": false
+        },
         "Contact-Phone": {
             "required": false
         },
