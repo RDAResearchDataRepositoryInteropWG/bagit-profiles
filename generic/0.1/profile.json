@@ -24,7 +24,7 @@
             "required": true
         },
         "External-Identifier": {
-            "required": true
+            "required": false
         },
         "External-Description": {
             "required": true
