@@ -40,7 +40,7 @@
         }    	 
     },
     "Manifests-Required": [
-        "md5"
+        "sha256"
     ],
     "Allow-Fetch.txt": true,
     "Serialization": "optional",
@@ -56,7 +56,7 @@
     ],
 
     "Tag-Manifests-Required": [
-        "md5"
+        "sha256"
     ],
     "Tag-Files-Required": [
         "metadata/datacite.xml"
